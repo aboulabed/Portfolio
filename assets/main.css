@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  box-sizing: border-box;
+  position: relative;
+  line-height: 1.5;
+  font-family: sans-serif;
+  /* overflow-x: hidden; */
+  /* overflow-y: scroll; */
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+h2{
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+i{
+  font-size: 30px !important;
+}
+nav{
+  animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
