@@ -1,5 +1,5 @@
 <template>
-  <nav class="shadow-[0_10px_100px_rgba(0,0,0,0.1)]">
+  <nav class="shadow-[0_10px_100px_rgba(0,0,0,0.1)] fixed w-full bg-white z-10">
     <div
       class="nav-content h-[70px] max-lg:text-sm max-lg:p-[0_2rem] text-lg flex justify-between p-[1rem_5rem]"
     >

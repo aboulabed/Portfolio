@@ -1,15 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  scrollbar-color: #888 #f1f1f1;
+  scrollbar-width: auto;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  height: 100vh;
+  html::-webkit-scrollbar {
+    width: 14px; /* Width of the scroll bar */
+  }
+  
+  html::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color of the track (the area behind the scroll thumb) */
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scroll thumb */
+    border-radius: 7px; /* Roundness of the scroll thumb */
+  }
+  
+  html::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scroll thumb on hover */
+  }
+}
 body {
   box-sizing: border-box;
   position: relative;
   line-height: 1.5;
   font-family: sans-serif;
-  /* overflow-x: hidden; */
-  /* overflow-y: scroll; */
   font-family: 'Source Sans Pro', sans-serif;
+ 
+
+    
+}
+
+* {
+  scrollbar-width: none;
+}
+
+
+div#__nuxt{
   
+}
+section{
+  scroll-snap-align: start;
+   height: 100vh;
 }
 h2{
   font-size: 16px;
@@ -19,7 +57,7 @@ i{
   font-size: 30px !important;
 }
 nav{
-  animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 @keyframes slide-in-top {
   0% {
