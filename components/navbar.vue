@@ -17,7 +17,7 @@
             v-for="l in list"
             class="duration-300 hover:text-[#7843e9] cursor-pointer"
           >
-            <NuxtLink>{{ l }}</NuxtLink>
+            <NuxtLink :href="l.link">{{ l.name }}</NuxtLink>
           </li>
         </ul>
       </div>
@@ -37,7 +37,7 @@
             v-for="l in list"
             class="duration-300 border-t border-solid border-t-[#eee] text-end hover:text-[#7843e9] cursor-pointer p-[1.5rem_3rem] w-full"
           >
-            <NuxtLink>{{ l }}</NuxtLink>
+            <NuxtLink :href="l.link">{{ l.name }}</NuxtLink>
           </li>
         </ul>
       </div>
@@ -46,7 +46,12 @@
 </template>
 
 <script setup>
-const list = ref(["Home", "About", "Projects", "Contact"]);
+const list = ref([
+  { name: "Home", link: "./" },
+  { name: "About", link: "#about" },
+  { name: "Projects", link: "" },
+  { name: "Contact", link: "" },
+]);
 const showList = ref(true);
 const toggleShowList = () => {
   showList.value = !showList.value;

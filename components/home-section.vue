@@ -2,16 +2,16 @@
   <section class="flex justify-center relative">
     <div class="heading box content-center flex flex-wrap justify-center">
       <div class="heading mb-7 title w-full justify-center flex">
-        <!-- <div class="block"></div> -->
+        
         <h1
-          class="text-6xl max-sm:text-5xl max-sm:w-[67%] max-sm:leading-[3.5rem] uppercase text-center font-bold tracking-[1px]"
+          class="text-6xl max-sm:text-5xl max-sm:w-[450px] mb-5 max-sm:leading-[3.5rem] uppercase text-center font-bold tracking-[1px]"
         >
           Hey, I'm Suhail Ahmed <span></span>
         </h1>
       </div>
 
-      <div class="info role m-12 max-sm:m-15 max-w-[45rem] text-center">
-        <!-- <div class="block"></div> -->
+      <div class="info role m-12 max-sm:m-20 max-w-[45rem] text-center">
+        
         <p
           class="text-xl text-[#333] max-sm:text-[18px] w-full leading-[2.20rem]"
         >
@@ -87,9 +87,6 @@ const socialMedias = ref([
     icon: "mdi-instagram",
   },
 ]);
-const scrollToAbout = () => {
-  scrollTo();
-};
 </script>
 
 <style scoped>
@@ -100,10 +97,6 @@ section {
       rgba(245, 245, 245, 0.8)
     ),
     url("@/assets/common-bg.svg");
-  height: 100vh;
-  /* min-height: 80rem;
-  max-height: 120rem; */
-  position: relative;
 
   .box .title {
     width: 100%;
