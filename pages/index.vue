@@ -3,6 +3,9 @@
   <div class="custom-scrollbar">
     <HomeSection />
     <AboutSection />
+    <ProjectSection />
+    <ContactSection />
+    <footerSection />
   </div>
 </template>
 
