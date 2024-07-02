@@ -49,8 +49,8 @@
 const list = ref([
   { name: "Home", link: "./" },
   { name: "About", link: "#about" },
-  { name: "Projects", link: "" },
-  { name: "Contact", link: "" },
+  { name: "Projects", link: "#project" },
+  { name: "Contact", link: "#contact" },
 ]);
 const showList = ref(true);
 const toggleShowList = () => {

@@ -1,5 +1,5 @@
 <template>
-  <section class="flex justify-center bg-[#fafafa]" id="about">
+  <section class="flex justify-center bg-[#fafafa]" id="contact">
     <div class="max-w-[1200px] m-auto w-[92%] mt-36 flex items-center flex-col">
       <div class="title text-center mb-[50px]">
         <h1
