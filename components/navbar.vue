@@ -7,7 +7,7 @@
         class="flex items-center hover:text-[#7843e9] duration-300 cursor-pointer text-[#333]"
       >
         <div class="img">
-          <img src="../assets/123.png" alt="logo" class="w-[40px] h-[40px]" />
+          <img src="../assets/logo.png" alt="logo" class="w-[40px] h-[40px]" />
         </div>
         <h2 class="ml-3 font-bold uppercase">Suhail Ahmed</h2>
       </div>
