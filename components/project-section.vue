@@ -55,7 +55,7 @@
 import { ref, onMounted, onBeforeUnmount } from "vue";
 const projects = ref([
   {
-    img: `/_nuxt/assets/one.png`,
+    img: `/one.png`,
     name: "Leo Template",
     description:
       "Leo is a successful Open-Source project that I createdb which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
@@ -132,7 +132,7 @@ const projects = ref([
     link: "https://vue-todo-ecru-nine.vercel.app/",
   },
   {
-    img: `/_nuxt/assets/tewlve.png`,
+    img: `/_nuxt/assets/twelve.png`,
     name: "Repos Getter",
     description:
       "Repos Getter is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.",
