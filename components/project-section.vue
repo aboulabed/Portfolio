@@ -62,77 +62,77 @@ const projects = ref([
     link: "https://aboulabed.github.io/Template-One/",
   },
   {
-    img: `/_nuxt/assets/two.png`,
+    img: `/two.png`,
     name: "Kasper Template",
     description:
       "Kasper is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.",
     link: "https://aboulabed.github.io/Template-Two/",
   },
   {
-    img: `/_nuxt/assets/three.png`,
+    img: `/three.png`,
     name: "Template Three",
     description:
       "I re-created the frontend of Template Three's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend.",
     link: "https://aboulabed.github.io/Template-Three/",
   },
   {
-    img: `/_nuxt/assets/four.png`,
+    img: `/four.png`,
     name: "Template Four",
     description:
       "Dashboard is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.",
     link: "https://aboulabed.github.io/Template-Four/",
   },
   {
-    img: `/_nuxt/assets/five.png`,
+    img: `/five.png`,
     name: "Special Design",
     description:
       "Special is a successful Open-Source project that I createdb which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
     link: "https://aboulabed.github.io/Template-Five/",
   },
   {
-    img: `/_nuxt/assets/six.png`,
+    img: `/six.png`,
     name: "Bondi Template",
     description:
       "Bondi is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.",
     link: "https://aboulabed.github.io/Template-Six/",
   },
   {
-    img: `/_nuxt/assets/seven.png`,
+    img: `/seven.png`,
     name: "Bliss Portofolio",
     description:
       "I re-created the frontend of Bliss's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend.",
     link: "https://aboulabed.github.io/Template-Seven/",
   },
   {
-    img: `/_nuxt/assets/eight.png`,
+    img: `/eight.png`,
     name: "Unfold Template",
     description:
       "Unfold is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.",
     link: "https://aboulabed.github.io/Template-Eight/",
   },
   {
-    img: `/_nuxt/assets/nine.png`,
+    img: `/nine.png`,
     name: "Photo Gallery",
     description:
       "Photo Gallery is a successful Open-Source project that I createdb which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
     link: "https://photogallery-umber.vercel.app/",
   },
   {
-    img: `/_nuxt/assets/ten.png`,
+    img: `/ten.png`,
     name: "Nuxt Dojo",
     description:
       "Nuxt Dojo is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.",
     link: "https://nuxt-dojo-gilt.vercel.app/products",
   },
   {
-    img: `/_nuxt/assets/eleven.png`,
+    img: `/eleven.png`,
     name: "Vue Todo",
     description:
       "I re-created the frontend of Vue Todo's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend.",
     link: "https://vue-todo-ecru-nine.vercel.app/",
   },
   {
-    img: `/_nuxt/assets/twelve.png`,
+    img: `/twelve.png`,
     name: "Repos Getter",
     description:
       "Repos Getter is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.",
