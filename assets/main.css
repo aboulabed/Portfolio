@@ -119,3 +119,11 @@ nav {
     opacity: 1;
   }
 }
+html {
+  scroll-snap-type: none !important;
+}
+
+section,
+footer {
+  scroll-snap-align: none !important;
+}
